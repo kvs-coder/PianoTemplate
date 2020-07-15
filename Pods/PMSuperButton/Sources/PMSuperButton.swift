@@ -189,7 +189,7 @@ open class PMSuperButton: UIButton {
     }
     
     //MARK: - Loading
-    let indicator: UIActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.gray)
+    let indicator: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
     public var isLoading: Bool = false
     
     /**
@@ -272,7 +272,7 @@ extension PMSuperButton: CAAnimationDelegate{
         
         // Set animation to be consistent on completion
         animation.isRemovedOnCompletion = false
-        animation.fillMode = "forwards"
+        animation.fillMode = convertToCAMediaTimingFillMode("forwards")
         
         // Add animation to the view's layer
         let fade = CAKeyframeAnimation(keyPath: "opacity")
@@ -296,4 +296,9 @@ extension PMSuperButton: CAAnimationDelegate{
             layer?.removeFromSuperlayer()
         }
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToCAMediaTimingFillMode(_ input: String) -> CAMediaTimingFillMode {
+	return CAMediaTimingFillMode(rawValue: input)
 }

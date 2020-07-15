@@ -10,6 +10,7 @@ import UIKit
 
 final class PianoViewController: UIViewController {
     private let mainView = MainView()
+
     unowned var c1Button: WhiteKeyButton { return mainView.keyC }
     unowned var c1sButton: BlackKeyButton { return mainView.keyBlackC }
     unowned var d1Button: WhiteKeyButton { return mainView.keyD }
@@ -27,11 +28,13 @@ final class PianoViewController: UIViewController {
     override public func loadView() {
         super.view = mainView
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setButtons()
     }
 }
+
 extension PianoViewController {
     func setButtons() {
         let player = Player()

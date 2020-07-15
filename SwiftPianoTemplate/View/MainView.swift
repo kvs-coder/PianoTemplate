@@ -19,6 +19,7 @@ class MainView: UIView {
     let keyA = WhiteKeyButton(tangent: .a1)
     let keyB = WhiteKeyButton(tangent: .b1)
     let keyCSecond = WhiteKeyButton(tangent: .c2)
+
     // MARK: 2 - Black Keys
     let keyBlackC = BlackKeyButton(tangent: .c1s)
     let keyBlackD = BlackKeyButton(tangent: .d1s)
@@ -45,48 +46,50 @@ class MainView: UIView {
         setupWhiteKeysConstraints()
         setupBlackKeysConstraints()
     }
+
     // MARK: 3 - Constraints
     private func setupWhiteKeysConstraints() {
         let whiteKeyCount = 8
         keyC.snp.makeConstraints { (make) in
             make.top.left.bottom.equalToSuperview()
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyD.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyC.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyE.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyD.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyF.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyE.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyG.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyF.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyA.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyG.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyB.snp.makeConstraints { (make) in
             make.top.bottom.equalToSuperview()
             make.left.equalTo(keyA.snp.right)
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
         keyCSecond.snp.makeConstraints { (make) in
             make.top.right.bottom.equalToSuperview()
-            make.width.equalTo(self.snp.width).dividedBy(whiteKeyCount)
+            make.width.equalTo(snp.width).dividedBy(whiteKeyCount)
         }
     }
+
     private func setupBlackKeysConstraints() {
         let whiteKeySpace = 2
         keyBlackC.snp.makeConstraints { (make) in

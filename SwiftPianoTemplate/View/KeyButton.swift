@@ -16,21 +16,22 @@ class KeyButton: PMSuperButton {
         backgroundColor: UIColor
     ) {
         self.init(frame: .zero)
-        self.ripple = true
-        self.rippleColor = UIColor(
+        ripple = true
+        rippleColor = UIColor(
             red: 220/255,
             green: 220/255,
             blue: 220/255,
             alpha: 1
         )
-        self.rippleSpeed = 2
-        self.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size: 17.0)
-        self.setTitle(tangent.rawValue, for: .normal)
-        self.setTitleColor(titleColor, for: .normal)
-        self.contentVerticalAlignment = .bottom
+        rippleSpeed = 2
+        titleLabel?.font = UIFont(name: "AvenirNext-Regular", size: 17.0)
+        setTitle(tangent.rawValue, for: .normal)
+        setTitleColor(titleColor, for: .normal)
+        contentVerticalAlignment = .bottom
         self.backgroundColor = backgroundColor
     }
 }
+
 extension KeyButton {
     func keyPressed(_ player: Player, tangent: Tangent) {
         touchUpInside {

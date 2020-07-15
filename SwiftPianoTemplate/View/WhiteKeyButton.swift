@@ -16,7 +16,7 @@ final class WhiteKeyButton: KeyButton {
             titleColor: UIColor.black,
             backgroundColor: UIColor.white
         )
-        self.layer.borderColor = UIColor.black.cgColor
-        self.layer.borderWidth = 1.0
+        layer.borderColor = UIColor.black.cgColor
+        layer.borderWidth = 1.0
     }
 }

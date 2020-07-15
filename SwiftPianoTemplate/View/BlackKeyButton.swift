@@ -17,5 +17,4 @@ final class BlackKeyButton: KeyButton {
             backgroundColor: UIColor.black
         )
     }
-    
 }
