@@ -1,0 +1,6 @@
+framework module Pods_SwiftPianoTemplate {
+  umbrella header "Pods-SwiftPianoTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1791867D24BF1EFF009D2149 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1791867C24BF1EFF009D2149 /* .swiftlint.yml */; };
+		1791867F24BF29D7009D2149 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791867E24BF29D7009D2149 /* Player.swift */; };
+		1791868224BF2A20009D2149 /* Tangent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791868124BF2A20009D2149 /* Tangent.swift */; };
+		1791868424BF2B36009D2149 /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791868324BF2B36009D2149 /* KeyButton.swift */; };
+		552FB88FB2B78683CA0A3B1F /* Pods_SwiftPianoTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A126E3BFAD27D92DDDB8271B /* Pods_SwiftPianoTemplate.framework */; };
+		78513E762066634D00ACF721 /* SwiftPianoTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78513E752066634D00ACF721 /* SwiftPianoTemplateTests.swift */; };
+		78A0AD3E2065ABCF00EE52C1 /* e1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD312065ABCE00EE52C1 /* e1.mp3 */; };
+		78A0AD3F2065ABCF00EE52C1 /* f1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD322065ABCE00EE52C1 /* f1.mp3 */; };
+		78A0AD402065ABCF00EE52C1 /* a1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD332065ABCE00EE52C1 /* a1s.mp3 */; };
+		78A0AD412065ABCF00EE52C1 /* g1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD342065ABCE00EE52C1 /* g1s.mp3 */; };
+		78A0AD422065ABCF00EE52C1 /* a1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD352065ABCE00EE52C1 /* a1.mp3 */; };
+		78A0AD432065ABCF00EE52C1 /* f1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD362065ABCE00EE52C1 /* f1s.mp3 */; };
+		78A0AD442065ABCF00EE52C1 /* b1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD372065ABCE00EE52C1 /* b1.mp3 */; };
+		78A0AD452065ABCF00EE52C1 /* d1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD382065ABCE00EE52C1 /* d1s.mp3 */; };
+		78A0AD462065ABCF00EE52C1 /* c1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD392065ABCF00EE52C1 /* c1.mp3 */; };
+		78A0AD472065ABCF00EE52C1 /* g1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD3A2065ABCF00EE52C1 /* g1.mp3 */; };
+		78A0AD482065ABCF00EE52C1 /* d1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD3B2065ABCF00EE52C1 /* d1.mp3 */; };
+		78A0AD492065ABCF00EE52C1 /* c1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD3C2065ABCF00EE52C1 /* c1s.mp3 */; };
+		78A0AD4A2065ABCF00EE52C1 /* c2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78A0AD3D2065ABCF00EE52C1 /* c2.mp3 */; };
+		78F6467620664C7F0062F91F /* WhiteKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F6467520664C7F0062F91F /* WhiteKeyButton.swift */; };
+		78F6467A2066568C0062F91F /* BlackKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F646792066568C0062F91F /* BlackKeyButton.swift */; };
+		78F6467C2066584F0062F91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F6467B2066584F0062F91F /* Assets.xcassets */; };
+		83C51FBF2048440200B69E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FBE2048440200B69E42 /* AppDelegate.swift */; };
+		83C51FC12048440200B69E42 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FC02048440200B69E42 /* PianoViewController.swift */; };
+		83C51FC92048440200B69E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C51FC72048440200B69E42 /* LaunchScreen.storyboard */; };
+		83C51FD120484A4D00B69E42 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FD020484A4D00B69E42 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78513E782066634D00ACF721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C51FB32048440200B69E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C51FBA2048440200B69E42;
+			remoteInfo = SwiftPianoTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1791867C24BF1EFF009D2149 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		1791867E24BF29D7009D2149 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1791868124BF2A20009D2149 /* Tangent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tangent.swift; sourceTree = "<group>"; };
+		1791868324BF2B36009D2149 /* KeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		6AD33F8FE0907BC50D27BF76 /* Pods-SwiftPianoTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPianoTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPianoTemplate/Pods-SwiftPianoTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		78513E732066634D00ACF721 /* SwiftPianoTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPianoTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78513E752066634D00ACF721 /* SwiftPianoTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPianoTemplateTests.swift; sourceTree = "<group>"; };
+		78513E772066634D00ACF721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A0AD312065ABCE00EE52C1 /* e1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e1.mp3; sourceTree = "<group>"; };
+		78A0AD322065ABCE00EE52C1 /* f1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f1.mp3; sourceTree = "<group>"; };
+		78A0AD332065ABCE00EE52C1 /* a1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a1s.mp3; sourceTree = "<group>"; };
+		78A0AD342065ABCE00EE52C1 /* g1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g1s.mp3; sourceTree = "<group>"; };
+		78A0AD352065ABCE00EE52C1 /* a1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a1.mp3; sourceTree = "<group>"; };
+		78A0AD362065ABCE00EE52C1 /* f1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f1s.mp3; sourceTree = "<group>"; };
+		78A0AD372065ABCE00EE52C1 /* b1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b1.mp3; sourceTree = "<group>"; };
+		78A0AD382065ABCE00EE52C1 /* d1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d1s.mp3; sourceTree = "<group>"; };
+		78A0AD392065ABCF00EE52C1 /* c1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c1.mp3; sourceTree = "<group>"; };
+		78A0AD3A2065ABCF00EE52C1 /* g1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g1.mp3; sourceTree = "<group>"; };
+		78A0AD3B2065ABCF00EE52C1 /* d1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d1.mp3; sourceTree = "<group>"; };
+		78A0AD3C2065ABCF00EE52C1 /* c1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c1s.mp3; sourceTree = "<group>"; };
+		78A0AD3D2065ABCF00EE52C1 /* c2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c2.mp3; sourceTree = "<group>"; };
+		78F6467520664C7F0062F91F /* WhiteKeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteKeyButton.swift; sourceTree = "<group>"; };
+		78F646792066568C0062F91F /* BlackKeyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackKeyButton.swift; sourceTree = "<group>"; };
+		78F6467B2066584F0062F91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C51FBB2048440200B69E42 /* SwiftPianoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPianoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C51FBE2048440200B69E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C51FC02048440200B69E42 /* PianoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
+		83C51FC82048440200B69E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C51FCA2048440200B69E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C51FD020484A4D00B69E42 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9114B10565380127F63470A7 /* Pods-SwiftPianoTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPianoTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPianoTemplate/Pods-SwiftPianoTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		A126E3BFAD27D92DDDB8271B /* Pods_SwiftPianoTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPianoTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78513E702066634D00ACF721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C51FB82048440200B69E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552FB88FB2B78683CA0A3B1F /* Pods_SwiftPianoTemplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1791868024BF2A15009D2149 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1791868124BF2A20009D2149 /* Tangent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DCFD4E557F8AA30F9C43402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9114B10565380127F63470A7 /* Pods-SwiftPianoTemplate.debug.xcconfig */,
+				6AD33F8FE0907BC50D27BF76 /* Pods-SwiftPianoTemplate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78513E742066634D00ACF721 /* SwiftPianoTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				78513E752066634D00ACF721 /* SwiftPianoTemplateTests.swift */,
+				78513E772066634D00ACF721 /* Info.plist */,
+			);
+			path = SwiftPianoTemplateTests;
+			sourceTree = "<group>";
+		};
+		78A0AD302065ABB400EE52C1 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				78A0AD352065ABCE00EE52C1 /* a1.mp3 */,
+				78A0AD332065ABCE00EE52C1 /* a1s.mp3 */,
+				78A0AD372065ABCE00EE52C1 /* b1.mp3 */,
+				78A0AD392065ABCF00EE52C1 /* c1.mp3 */,
+				78A0AD3C2065ABCF00EE52C1 /* c1s.mp3 */,
+				78A0AD3D2065ABCF00EE52C1 /* c2.mp3 */,
+				78A0AD3B2065ABCF00EE52C1 /* d1.mp3 */,
+				78A0AD382065ABCE00EE52C1 /* d1s.mp3 */,
+				78A0AD312065ABCE00EE52C1 /* e1.mp3 */,
+				78A0AD322065ABCE00EE52C1 /* f1.mp3 */,
+				78A0AD362065ABCE00EE52C1 /* f1s.mp3 */,
+				78A0AD3A2065ABCF00EE52C1 /* g1.mp3 */,
+				78A0AD342065ABCE00EE52C1 /* g1s.mp3 */,
+			);
+			path = SoundFiles;
+			sourceTree = "<group>";
+		};
+		78A0AD4B2066408000EE52C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83C51FD020484A4D00B69E42 /* MainView.swift */,
+				78F6467520664C7F0062F91F /* WhiteKeyButton.swift */,
+				78F646792066568C0062F91F /* BlackKeyButton.swift */,
+				1791868324BF2B36009D2149 /* KeyButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78A0AD4C2066408D00EE52C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83C51FC02048440200B69E42 /* PianoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78A0AD4D206640A900EE52C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1791867E24BF29D7009D2149 /* Player.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		83C51FB22048440200B69E42 = {
+			isa = PBXGroup;
+			children = (
+				1791867C24BF1EFF009D2149 /* .swiftlint.yml */,
+				83C51FBD2048440200B69E42 /* SwiftPianoTemplate */,
+				78A0AD302065ABB400EE52C1 /* SoundFiles */,
+				78513E742066634D00ACF721 /* SwiftPianoTemplateTests */,
+				83C51FBC2048440200B69E42 /* Products */,
+				5DCFD4E557F8AA30F9C43402 /* Pods */,
+				C0684EB5C5DF89013E70EB05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83C51FBC2048440200B69E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C51FBB2048440200B69E42 /* SwiftPianoTemplate.app */,
+				78513E732066634D00ACF721 /* SwiftPianoTemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C51FBD2048440200B69E42 /* SwiftPianoTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1791868024BF2A15009D2149 /* Model */,
+				78A0AD4B2066408000EE52C1 /* View */,
+				78A0AD4C2066408D00EE52C1 /* Controller */,
+				78A0AD4D206640A900EE52C1 /* Service */,
+				83C51FBE2048440200B69E42 /* AppDelegate.swift */,
+				83C51FC72048440200B69E42 /* LaunchScreen.storyboard */,
+				83C51FCA2048440200B69E42 /* Info.plist */,
+				78F6467B2066584F0062F91F /* Assets.xcassets */,
+			);
+			path = SwiftPianoTemplate;
+			sourceTree = "<group>";
+		};
+		C0684EB5C5DF89013E70EB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A126E3BFAD27D92DDDB8271B /* Pods_SwiftPianoTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78513E722066634D00ACF721 /* SwiftPianoTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78513E7C2066634D00ACF721 /* Build configuration list for PBXNativeTarget "SwiftPianoTemplateTests" */;
+			buildPhases = (
+				78513E6F2066634D00ACF721 /* Sources */,
+				78513E702066634D00ACF721 /* Frameworks */,
+				78513E712066634D00ACF721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78513E792066634D00ACF721 /* PBXTargetDependency */,
+			);
+			name = SwiftPianoTemplateTests;
+			productName = SwiftPianoTemplateTests;
+			productReference = 78513E732066634D00ACF721 /* SwiftPianoTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83C51FBA2048440200B69E42 /* SwiftPianoTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C51FCD2048440200B69E42 /* Build configuration list for PBXNativeTarget "SwiftPianoTemplate" */;
+			buildPhases = (
+				12928D26A8B61FC37203A650 /* [CP] Check Pods Manifest.lock */,
+				83C51FB72048440200B69E42 /* Sources */,
+				83C51FB82048440200B69E42 /* Frameworks */,
+				83C51FB92048440200B69E42 /* Resources */,
+				8E7C3E49E78C70A974BEED03 /* [CP] Embed Pods Frameworks */,
+				174BAC4524BF18EB00F8FFD9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPianoTemplate;
+			productName = SwiftPianoTemplate;
+			productReference = 83C51FBB2048440200B69E42 /* SwiftPianoTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C51FB32048440200B69E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = csh;
+				TargetAttributes = {
+					78513E722066634D00ACF721 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83C51FBA2048440200B69E42;
+					};
+					83C51FBA2048440200B69E42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83C51FB62048440200B69E42 /* Build configuration list for PBXProject "SwiftPianoTemplate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C51FB22048440200B69E42;
+			productRefGroup = 83C51FBC2048440200B69E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C51FBA2048440200B69E42 /* SwiftPianoTemplate */,
+				78513E722066634D00ACF721 /* SwiftPianoTemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78513E712066634D00ACF721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C51FB92048440200B69E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1791867D24BF1EFF009D2149 /* .swiftlint.yml in Resources */,
+				78A0AD462065ABCF00EE52C1 /* c1.mp3 in Resources */,
+				78A0AD482065ABCF00EE52C1 /* d1.mp3 in Resources */,
+				78A0AD452065ABCF00EE52C1 /* d1s.mp3 in Resources */,
+				78A0AD3F2065ABCF00EE52C1 /* f1.mp3 in Resources */,
+				78F6467C2066584F0062F91F /* Assets.xcassets in Resources */,
+				78A0AD412065ABCF00EE52C1 /* g1s.mp3 in Resources */,
+				78A0AD4A2065ABCF00EE52C1 /* c2.mp3 in Resources */,
+				78A0AD432065ABCF00EE52C1 /* f1s.mp3 in Resources */,
+				78A0AD472065ABCF00EE52C1 /* g1.mp3 in Resources */,
+				78A0AD492065ABCF00EE52C1 /* c1s.mp3 in Resources */,
+				78A0AD3E2065ABCF00EE52C1 /* e1.mp3 in Resources */,
+				78A0AD402065ABCF00EE52C1 /* a1s.mp3 in Resources */,
+				78A0AD422065ABCF00EE52C1 /* a1.mp3 in Resources */,
+				83C51FC92048440200B69E42 /* LaunchScreen.storyboard in Resources */,
+				78A0AD442065ABCF00EE52C1 /* b1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12928D26A8B61FC37203A650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftPianoTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		174BAC4524BF18EB00F8FFD9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		8E7C3E49E78C70A974BEED03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftPianoTemplate/Pods-SwiftPianoTemplate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PMSuperButton/PMSuperButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMSuperButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftPianoTemplate/Pods-SwiftPianoTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78513E6F2066634D00ACF721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78513E762066634D00ACF721 /* SwiftPianoTemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C51FB72048440200B69E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C51FC12048440200B69E42 /* PianoViewController.swift in Sources */,
+				1791868224BF2A20009D2149 /* Tangent.swift in Sources */,
+				78F6467620664C7F0062F91F /* WhiteKeyButton.swift in Sources */,
+				83C51FD120484A4D00B69E42 /* MainView.swift in Sources */,
+				78F6467A2066568C0062F91F /* BlackKeyButton.swift in Sources */,
+				1791867F24BF29D7009D2149 /* Player.swift in Sources */,
+				83C51FBF2048440200B69E42 /* AppDelegate.swift in Sources */,
+				1791868424BF2B36009D2149 /* KeyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78513E792066634D00ACF721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C51FBA2048440200B69E42 /* SwiftPianoTemplate */;
+			targetProxy = 78513E782066634D00ACF721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83C51FC72048440200B69E42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C51FC82048440200B69E42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78513E7A2066634D00ACF721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = SwiftPianoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvs.SwiftPianoTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPianoTemplate.app/SwiftPianoTemplate";
+			};
+			name = Debug;
+		};
+		78513E7B2066634D00ACF721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = SwiftPianoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvs.SwiftPianoTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPianoTemplate.app/SwiftPianoTemplate";
+			};
+			name = Release;
+		};
+		83C51FCB2048440200B69E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C51FCC2048440200B69E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C51FCE2048440200B69E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9114B10565380127F63470A7 /* Pods-SwiftPianoTemplate.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = SwiftPianoTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianhaug.SwiftPianoTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C51FCF2048440200B69E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD33F8FE0907BC50D27BF76 /* Pods-SwiftPianoTemplate.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAVP5V2N7V;
+				INFOPLIST_FILE = SwiftPianoTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianhaug.SwiftPianoTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78513E7C2066634D00ACF721 /* Build configuration list for PBXNativeTarget "SwiftPianoTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78513E7A2066634D00ACF721 /* Debug */,
+				78513E7B2066634D00ACF721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C51FB62048440200B69E42 /* Build configuration list for PBXProject "SwiftPianoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C51FCB2048440200B69E42 /* Debug */,
+				83C51FCC2048440200B69E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C51FCD2048440200B69E42 /* Build configuration list for PBXNativeTarget "SwiftPianoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C51FCE2048440200B69E42 /* Debug */,
+				83C51FCF2048440200B69E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C51FB32048440200B69E42 /* Project object */;
+}
