@@ -9,14 +9,6 @@
 import XCTest
 
 class SwiftPianoTemplateUITests: XCTestCase {
-    override func setUpWithError() throws {
-        continueAfterFailure = false
-    }
-
-    override func tearDownWithError() throws {
-        
-    }
-
     func testButtonsState() throws {
         let app = XCUIApplication()
         app.launch()
@@ -47,14 +39,5 @@ class SwiftPianoTemplateUITests: XCTestCase {
         XCTAssertEqual(a1s.label, "a1s")
         XCTAssertEqual(b1.label, "b1")
         XCTAssertEqual(c2.label, "c2")
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
     }
 }

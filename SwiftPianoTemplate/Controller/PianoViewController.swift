@@ -11,19 +11,45 @@ import UIKit
 final class PianoViewController: UIViewController {
     private let mainView = MainView()
 
-    unowned var c1Button: WhiteKeyButton { return mainView.keyC }
-    unowned var c1sButton: BlackKeyButton { return mainView.keyBlackC }
-    unowned var d1Button: WhiteKeyButton { return mainView.keyD }
-    unowned var d1sButton: BlackKeyButton { return mainView.keyBlackD }
-    unowned var e1Button: WhiteKeyButton { return mainView.keyE }
-    unowned var f1Button: WhiteKeyButton { return mainView.keyF }
-    unowned var f1sButton: BlackKeyButton { return mainView.keyBlackF }
-    unowned var g1Button: WhiteKeyButton { return mainView.keyG }
-    unowned var g1sButton: BlackKeyButton { return mainView.keyBlackG }
-    unowned var a1Button: WhiteKeyButton { return mainView.keyA }
-    unowned var a1sButton: BlackKeyButton { return mainView.keyBlackA }
-    unowned var b1Button: WhiteKeyButton { return mainView.keyB }
-    unowned var c2Button: WhiteKeyButton { return mainView.keyCSecond }
+    unowned var c1Button: WhiteKeyButton {
+        return mainView.keyC
+    }
+    unowned var c1sButton: BlackKeyButton {
+        return mainView.keyBlackC
+    }
+    unowned var d1Button: WhiteKeyButton {
+        return mainView.keyD
+    }
+    unowned var d1sButton: BlackKeyButton {
+        return mainView.keyBlackD
+    }
+    unowned var e1Button: WhiteKeyButton {
+        return mainView.keyE
+    }
+    unowned var f1Button: WhiteKeyButton {
+        return mainView.keyF
+    }
+    unowned var f1sButton: BlackKeyButton {
+        return mainView.keyBlackF
+    }
+    unowned var g1Button: WhiteKeyButton {
+        return mainView.keyG
+    }
+    unowned var g1sButton: BlackKeyButton {
+        return mainView.keyBlackG
+    }
+    unowned var a1Button: WhiteKeyButton {
+        return mainView.keyA
+    }
+    unowned var a1sButton: BlackKeyButton {
+        return mainView.keyBlackA
+    }
+    unowned var b1Button: WhiteKeyButton {
+        return mainView.keyB
+    }
+    unowned var c2Button: WhiteKeyButton {
+        return mainView.keyCSecond
+    }
 
     override public func loadView() {
         super.view = mainView
